@@ -67,9 +67,9 @@ body {
 	transform: translate3d(0, calc(var(--scrollTop) / 5.7), 0);
 }
 .layers__photo {
-	width: 350px;
-	height: 300px;
-	margin-bottom: calc(var(--index) * -17);
+	width: calc(var(--index) * 14);
+	height: calc(var(--index) * 12);
+	margin-bottom: calc(var(--index) * -15);
 }
 .layer__header {
 	z-index: 1;

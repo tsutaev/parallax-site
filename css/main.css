@@ -69,8 +69,8 @@ body {
 .layers__photo {
 	width: calc(var(--index) * 16);
 	height: calc(var(--index) * 13);
-	min-width: 300px;
-	min-height: 280px;
+	min-width: 280px;
+	min-height: 250px;
 	margin-bottom: calc(var(--index) * -13);
 }
 .layer__header {

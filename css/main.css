@@ -67,10 +67,10 @@ body {
 	transform: translate3d(0, calc(var(--scrollTop) / 5.7), 0);
 }
 .layers__photo {
-	width: calc(var(--index) * 14);
-	height: calc(var(--index) * 12);
-	min-width: 450px;
-	min-height: 400px;
+	width: calc(var(--index) * 16);
+	height: calc(var(--index) * 13);
+	min-width: 300px;
+	min-height: 280px;
 	margin-bottom: calc(var(--index) * -13);
 }
 .layer__header {

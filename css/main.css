@@ -123,7 +123,7 @@ body {
 }
 .main-article__paragraph {
 	max-width: calc(var(--index) * 30);
-	font-size: 20px;
+	font-size: calc(var(--index) * .7);
 	margin-top: calc(var(--index) / 1.25);
 	transform: var(--main-article-transform);
 	transition: var(--transition);

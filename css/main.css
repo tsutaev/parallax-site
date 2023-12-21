@@ -68,7 +68,7 @@ body {
 }
 .layers__photo {
 	width: 350px;
-    height: 300px;
+	height: 300px;
 	margin-bottom: calc(var(--index) * -17);
 }
 .layer__header {

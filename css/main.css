@@ -69,7 +69,9 @@ body {
 .layers__photo {
 	width: calc(var(--index) * 14);
 	height: calc(var(--index) * 12);
-	margin-bottom: calc(var(--index) * -15);
+	min-width: 450px;
+	min-height: 400px;
+	margin-bottom: calc(var(--index) * -13);
 }
 .layer__header {
 	z-index: 1;
@@ -93,7 +95,7 @@ body {
 }
 .layers__text {
 	font-size: calc(var(--index) * 1);
-	margin-top: calc(var(--index) * 0.25);
+	margin-top: calc(var(--index) * -.5);
 }
 .main-article {
 	--main-article-transform: translate3d(0, calc(var(--scrollTop) / -7.5), 0);
@@ -117,16 +119,16 @@ body {
 	transform: var(--main-article-transform);
 	transition: var(--transition);
 	will-change: transform;
-	margin-top: calc(var(--index) * -4);
+	margin-top: calc(var(--index) * -5);
 }
 .main-article__paragraph {
 	max-width: calc(var(--index) * 30);
-	font-size: calc(var(--index) * 1);
+	font-size: 20px;
 	margin-top: calc(var(--index) / 1.25);
 	transform: var(--main-article-transform);
 	transition: var(--transition);
 	will-change: transform;
-	margin-top: calc(var(--index) * 1);
+	margin-top: calc(var(--index) * 0);
 }
 .content {
 	will-change: transform;
